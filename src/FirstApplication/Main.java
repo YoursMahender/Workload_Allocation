@@ -8,8 +8,10 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 	
-	public void start(Stage stage) throws Exception
+	
+	public void start(@SuppressWarnings("exports") Stage stage) throws Exception
 	{
+	
 		Parent parent = FXMLLoader.load(getClass().getResource("Main.fxml"));
 		
 		Scene scene= new Scene(parent);
@@ -18,6 +20,7 @@ public class Main extends Application {
 		stage.setScene(scene);
 		stage.show();
 	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

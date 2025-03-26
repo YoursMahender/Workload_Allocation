@@ -17,6 +17,7 @@
       <TextField fx:id="managerfield" layoutX="129.0" layoutY="174.0" prefHeight="26.0" prefWidth="462.0" />
       <ChoiceBox fx:id="worktypechoice" layoutX="129.0" layoutY="233.0" opacity="0.78" prefHeight="26.0" prefWidth="248.0" />
       
-      <Button fx:id="savebutton" layoutX="253.0" layoutY="312.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="72.0" text="Save" />
+      <Button fx:id="savebutton" layoutX="253.0" layoutY="312.0" mnemonicParsing="false" onAction="#onSaveButtonClick" prefHeight="26.0" prefWidth="72.0" text="Save" />
+   <Button fx:id="backButton" layoutX="50.0" layoutY="350.0" onAction="#goBackToMain" text="Back" />
    </children>
 </AnchorPane>

@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstApplication.MainController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="479.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FirstApplication.MainController">
    <children>
-      <Button fx:id="NewStaffButton" layoutX="32.0" layoutY="78.0" mnemonicParsing="false" onAction="#NewStaffButtonListener" prefHeight="38.0" prefWidth="116.0" text="NEW STAFF" textFill="#282826">
+      <Button fx:id="NewStaffButton" layoutX="32.0" layoutY="107.0" mnemonicParsing="false" onAction="#NewStaffButtonListener" prefHeight="38.0" prefWidth="116.0" text="NEW STAFF">
          <font>
             <Font name="Calibri" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="ViewStaffButton" layoutX="32.0" layoutY="136.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" text="VIEW STAFF">
+      <Button fx:id="ViewStaffButton" layoutX="32.0" layoutY="178.0" mnemonicParsing="false" onAction="#ViewStaffButtonListener" prefHeight="38.0" prefWidth="116.0" text="VIEW STAFF">
          <font>
             <Font name="Calibri" size="16.0" />
          </font>
       </Button>
-      <Button fx:id="AssignButton" layoutX="32.0" layoutY="193.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" text="ASSIGN DUTIES">
+      <Button fx:id="AssignButton" layoutX="32.0" layoutY="247.0" mnemonicParsing="false" onAction="#AssignButtonListener" prefHeight="38.0" prefWidth="116.0" text="ASSIGN DUTIES">
          <font>
             <Font name="Calibri" size="15.0" />
          </font>
       </Button>
-      <Button fx:id="WorkLoadButton" layoutX="32.0" layoutY="251.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" text="WORKLOAD">
+      <Button fx:id="WorkLoadButton" layoutX="32.0" layoutY="321.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="116.0" text="WORKLOAD">
          <font>
             <Font name="Calibri" size="16.0" />
          </font>
       </Button>
+      <Label alignment="CENTER" contentDisplay="RIGHT" layoutX="66.0" layoutY="18.0" prefHeight="45.0" prefWidth="428.0" text="WorkLoad_Allocation" textFill="#cc3133">
+         <font>
+            <Font name="Algerian" size="18.0" />
+         </font>
+      </Label>
       
      
     
